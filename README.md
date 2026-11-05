@@ -1,68 +1,35 @@
-<div align="center">
+# Simulación de listas con Java Swing
 
-# 📊 Linked Lists & Memory Simulation for Disk Partitions (MIA)
+Aplicación de escritorio de Manejo e Implementación de Archivos que presenta operaciones de una simulación de listas mediante una interfaz Swing. Incluye fuentes Java, formulario y proyecto Maven.
 
-**Simulación visual y algorítmica de particionamiento de memoria y discos mediante listas enlazadas en Java.**
+## Requisitos
 
-[![Language](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge)](https://github.com/Ennero/SimulacionListas_MIA)
-[![Course](https://img.shields.io/badge/Course-Manejo%20e%20Implementación%20de%20Archivos-003366?style=for-the-badge)](https://ingenieria.usac.edu.gt/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+JDK 23 y Maven, según maven.compiler.release del pom.xml. Requiere escritorio gráfico.
 
-</div>
+## Ejecución
 
----
+Los comandos parten de la raíz del repositorio, salvo donde se indica otra terminal.
 
-
-## 📌 Descripción General
-
-Este repositorio contiene la implementación y entrega de **📊 Linked Lists & Memory Simulation for Disk Partitions (MIA)**, desarrollado en el curso de **Manejo e Implementación de Archivos** en la Universidad de San Carlos de Guatemala.
-
-- **Objetivo:** Simulación visual y algorítmica de particionamiento de memoria y discos mediante listas enlazadas en Java.
-- **Stack Principal:** `Java`.
-- **Área:** Ciencias de la Computación, Algoritmos y Desarrollo de Software.
-
----
-
-## 🚀 Características y Componentes
-
-- Implementación modular y buenas prácticas de codificación.
-- Manejo estructurado de datos, control de flujo y validaciones.
-- Documentación y scripts de soporte para compilación o ejecución.
-
----
-
-## 📦 Estructura del Proyecto
-
-```
-SimulacionListas_MIA/
-├── src/ o archivos de código fuente
-├── docs/ (si aplica)
-├── .gitignore
-├── LICENSE
-└── README.md
+```bash
+cd SimulacionListas_MIA
+mvn compile
+mvn org.codehaus.mojo:exec-maven-plugin:3.5.0:java
 ```
 
----
+## Recorrido de demostración
 
-## ⚙️ Requisitos y Ejecución
+La clase com.mycompany.simulacionlistas_mia.SimulacionListas_MIA inicia la aplicación. Explorar las operaciones de la ventana gui para observar la representación de los nodos.
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Ennero/SimulacionListas_MIA.git
-   cd SimulacionListas_MIA
-   ```
-2. Ejecutar según el entorno (`Java`):
-   - Consultar los scripts o archivos principales del proyecto para parámetros específicos.
+## Organización
 
----
+Carpetas de la entrega: [`SimulacionListas_MIA/`](SimulacionListas_MIA/).
 
-## 📄 Licencia
+## Alcance y límites
 
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Es una simulación académica acotada. No se presenta como un sistema de particionado físico ni como un gestor completo de discos.
 
----
+## Contexto y licencia
 
-## 👨‍💻 Autor
+Trabajo académico o de aprendizaje conservado en el portafolio de [Enner Mendizabal](https://github.com/Ennero). Los créditos de los trabajos en grupo se conservan en sus entregas y manuales.
 
-- **Enner Mendizabal** - [@Ennero](https://github.com/Ennero)  
-- *Facultad de Ingeniería, Universidad de San Carlos de Guatemala.*
+Consultar [LICENSE](LICENSE) para la licencia de la raíz. Las dependencias y los componentes con avisos o licencias propios conservan sus condiciones.
